@@ -1,7 +1,3 @@
-#New-Variable -Name "EC2ID" -Value "i-055d051b1632c99a1"
-#New-Variable -Name "RDSName" ""
-#New-Variable -Name "DevStatus" -Value (Get-EC2Instance $EC2ID).Instances.State.Name
-
 $EC2ID = "i-055d051b1632c99a1"
 $RDSName = ""
 $DevStatus = (Get-EC2Instance $EC2ID).Instances.State.Name
